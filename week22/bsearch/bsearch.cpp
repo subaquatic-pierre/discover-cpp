@@ -1,21 +1,21 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int binary_search(int search_val, int lst[], int elements);
+// int binary_search(int search_val, int lst[], int elements);
 
-int main()
-{
-    int arr[] = {0, 1, 2, 18, 19, 20, 25};
-    int numComps;
-    int num;
+// int main()
+// {
+//     int arr[] = {0, 1, 2, 18, 19, 20, 25};
+//     int numComps;
+//     int num;
 
-    cout << "Enter value to search for: ";
-    cin >> num;
+//     cout << "Enter value to search for: ";
+//     cin >> num;
 
-    numComps = binary_search(num, arr, 7);
-    cout << "Num of comparisons was: " << numComps << endl;
-    return 0;
-}
+//     numComps = binary_search(num, arr, 7);
+//     cout << "Num of comparisons was: " << numComps << endl;
+//     return 0;
+// }
 
 int binary_search(int search_val, int lst[], int elements)
 {
