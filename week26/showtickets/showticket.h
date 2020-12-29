@@ -61,6 +61,7 @@ public:
             return this->rowNum + " " + this->seatNum + " available";
         }
     }
+
     string print_ticket(string row, string seat) const
     {
         return row + " " + seat + " available";

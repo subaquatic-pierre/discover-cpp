@@ -1,6 +1,6 @@
-// #include "../showtickets/showticket.h"
-// #include <iostream>
-#include "showticket.h"
+#include "../showtickets/showticket.h"
+#include <iostream>
+// #include "showticket.h"
 
 class SportTicket : public ShowTicket
 {
@@ -8,6 +8,7 @@ private:
     bool beerSold;
 
 public:
+    SportTicket() : ShowTicket("DEF", "DEF"){};
     SportTicket(string row, string seat) : ShowTicket(row, seat)
     {
         this->beerSold = false;
