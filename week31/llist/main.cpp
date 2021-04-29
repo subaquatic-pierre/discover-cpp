@@ -23,7 +23,10 @@ int main(int argc, char const *argv[])
     list.append(coolNode);
 
     LListNode<Person> *ptrJeff = nullptr;
-    list.append(ptrJeff, "Jeff", "Harold", "supercool@something.com");
+    // list.append(ptrJeff, "Jeff", "Harold", "supercool@something.com");
+
+    LListNode<Person> awesome = LListNode<Person>(Person("Awesome", 20));
+    list.append(awesome);
 
     cout << list.size() << endl;
 
